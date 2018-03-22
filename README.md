@@ -119,6 +119,8 @@ In this frame, the car is driving in the middle of the road, and the road has th
 
 #### Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
+<img src="./project_video_output.gif" width="400">
+
 Here's a [link to my video result](./project_video_output.mp4).
 For each video frame, if the lane lines are found, the 2nd degree polynomial coefficients are averaged over the last 10 frames (see code cell 15, lines 71-85). This approach reduces the number of outliers and makes the fitted lines to be smoother.
 
